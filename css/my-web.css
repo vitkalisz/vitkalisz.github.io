@@ -38,8 +38,13 @@ nav #sandwich-button {
   z-index: 10;
 }
 
-nav #sandwich-button:hover .sandwich-bar, nav #sandwich-button:active .sandwich-bar, nav #sandwich-button:focus-within .sandwich-bar {
-  background-color: read;
+@media (max-width: 768px) {
+
+  nav #sandwich-button {
+    top: 15px;
+    right: 15px;
+  }
+
 }
 
 nav #sandwich-button .sandwich-bar {
@@ -91,8 +96,26 @@ nav .anchor #pop-up-panel {
   display: none;
 }
 
+@media (max-width: 768px) {
+
+  nav .anchor #pop-up-panel {
+    top: 74px;
+    right: 22px;
+  }
+
+}
+
 nav .anchor #pop-up-panel .pop-up-layer-0 {
   color: hsla(240, 100%, 50%, 1);
   font-weight: 600;
   margin: 3px;
+}
+
+@media (max-width: 768px) {
+
+  nav .anchor #pop-up-panel .pop-up-layer-0 {
+    margin: 9px;
+    font-size: 26px;
+  }
+
 }
