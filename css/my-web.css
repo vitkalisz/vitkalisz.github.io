@@ -92,4 +92,5 @@ nav .anchor #pop-up-panel .pop-up-layer-0 {
   font-weight: 600;
   font-size: 26px;
   margin: 9px;
+  user-select: none;
 }
