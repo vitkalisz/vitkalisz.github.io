@@ -31,20 +31,11 @@ nav {
 
 nav #sandwich-button {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 15px;
+  right: 15px;
   border-radius: 4px;
   cursor: pointer;
   z-index: 10;
-}
-
-@media (max-width: 768px) {
-
-  nav #sandwich-button {
-    top: 15px;
-    right: 15px;
-  }
-
 }
 
 nav #sandwich-button .sandwich-bar {
@@ -83,8 +74,8 @@ nav .anchor {
 }
 
 nav .anchor #pop-up-panel {
-  right: 37px;
-  top: 86px;
+  right: 22px;
+  top: 74px;
   padding: 8px 20px;
   flex-direction: column;
   white-space: nowrap;
@@ -96,26 +87,9 @@ nav .anchor #pop-up-panel {
   display: none;
 }
 
-@media (max-width: 768px) {
-
-  nav .anchor #pop-up-panel {
-    top: 74px;
-    right: 22px;
-  }
-
-}
-
 nav .anchor #pop-up-panel .pop-up-layer-0 {
   color: hsla(240, 100%, 50%, 1);
   font-weight: 600;
-  margin: 3px;
-}
-
-@media (max-width: 768px) {
-
-  nav .anchor #pop-up-panel .pop-up-layer-0 {
-    margin: 9px;
-    font-size: 26px;
-  }
-
+  font-size: 26px;
+  margin: 9px;
 }
