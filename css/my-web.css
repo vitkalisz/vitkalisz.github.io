@@ -62,8 +62,8 @@ nav #gray-sandwich-div {
   z-index: 10;
   display: none;
   bottom: 0;
-  background: #1a1b1f;
-  opacity: 0.3;
+  background: #1a1b1f4d;
+  backdrop-filter: blur(4px);
   left: 0;
 }
 
